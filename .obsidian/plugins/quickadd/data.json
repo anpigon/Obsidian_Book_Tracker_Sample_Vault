@@ -1,0 +1,81 @@
+{
+  "choices": [
+    {
+      "id": "7b049cd0-2a98-40f7-9b4b-32e44da15a85",
+      "name": "책 검색",
+      "type": "Macro",
+      "command": true,
+      "macroId": "d767125a-44a1-4e60-8415-67500097016a"
+    }
+  ],
+  "macros": [
+    {
+      "name": "YES24 책 검색 매크로",
+      "id": "d767125a-44a1-4e60-8415-67500097016a",
+      "commands": [
+        {
+          "name": "obsidian_quickAdd_macro_search_books_yes24",
+          "type": "UserScript",
+          "id": "fe9af0bb-f6f1-4db0-9d5d-056da7c9c227",
+          "path": "Scripts/obsidian_quickAdd_macro_search_books_yes24.js",
+          "settings": {}
+        },
+        {
+          "name": "독서 노트 템플릿",
+          "type": "NestedChoice",
+          "id": "3531caa5-7dce-4f0f-b092-07d2ee22f451",
+          "choice": {
+            "id": "c5c4968f-645b-4f28-816c-089b459279c7",
+            "name": "독서 노트 템플릿",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/독서 노트 템플릿.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:fileName}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Books"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "0.23.0",
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "main": {
+    "id": "6dcbf62e6ee0c36e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e49f8826332e4823",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "83ff669f6b63c720",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Books.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ad6603cfed449de4",
+    "type": "split",
+    "children": [
+      {
+        "id": "c464cb18bd9de690",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57eca373ad7cb85c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a169200ecea71865",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "94bded7296b56f26",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "076968c6172d0aa1",
+    "type": "split",
+    "children": [
+      {
+        "id": "04af01fc6015509b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebf08156436bb42d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Books/Books.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "67386b1db2f46b48",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Books/Books.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c474c75319263ac4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "142815603daff2be",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Books/Books.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "83ff669f6b63c720",
+  "lastOpenFiles": [
+    "README.md",
+    "Books/Books.md",
+    "Books/몰입 Think hard!.md",
+    "Books/코스모스.md",
+    "Book/Book.md",
+    "Books/사피엔스.md",
+    "Books/총 균 쇠.md",
+    "Books",
+    "Books/아.md",
+    "Book",
+    "Templates/독서 노트 템플릿.md",
+    "Templates",
+    "Scripts/obsidian_quickAdd_macro_search_books_yes24.js",
+    "Scripts",
+    "템플릿/독서 노트 템플릿.md",
+    "템플릿/obsidian_quickAdd_macro_search_books_yes24.js",
+    "템플릿"
+  ]
+}
